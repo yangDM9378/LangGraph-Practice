@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp -r C:/Users/cococ/Desktop/LangGraph-Practice/01-faq-bot/frontend C:/Users/cococ/Desktop/LangGraph-Practice/02-tool-use/frontend)",
+      "Bash(cp -r C:/Users/cococ/Desktop/LangGraph-Practice/01-faq-bot/frontend C:/Users/cococ/Desktop/LangGraph-Practice/03-react-agent/frontend)"
+    ]
+  }
+}
