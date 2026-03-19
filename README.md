@@ -16,7 +16,8 @@ LangGraph를 단계별로 학습하는 실습 프로젝트입니다.
 | 05 | `05-human-in-loop/` | interrupt(), 사람 승인 흐름 | ⬜ |
 | 06 | `06-memory/` | Checkpointer, 대화 기억 | ⬜ |
 | 07 | `07-streaming/` | astream_events, SSE | ⬜ |
-| 08 | `08-production/` | 에러 핸들링, LangSmith 모니터링 | ⬜ |
+| 08 | `08-production/` | 에러 핸들링, 구조화 로깅, Retry | ⬜ |
+| 09 | `09-langsmith/` | LangSmith 트레이싱, @traceable, metadata | ⬜ |
 
 각 단계는 이전 단계 위에 **개념 하나**만 더합니다.
 
@@ -83,6 +84,7 @@ npm run dev
 - Python 3.11+
 - Node.js 18+
 - [Anthropic API Key](https://console.anthropic.com/)
+- [LangSmith API Key](https://smith.langchain.com/) (09단계)
 
 ---
 
